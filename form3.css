@@ -1,0 +1,62 @@
+#Box{
+    height: 500px;
+    width: 700px;
+    background-color: aqua;
+   margin: auto;
+}
+body{
+    background-color:darkgray;
+}
+.container{
+    margin-top: 70px;
+}
+#left{
+    height: 500px;
+    width: 350px;
+    background-color: blueviolet;
+    float: left;
+}
+#right{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    float: left;
+}
+#left img{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+#sign{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 280px;
+    height: 30px;
+    background-color: rgb(246, 242, 242);
+    border: none;
+   
+}
+button{
+    margin-left: 20px;
+    margin-bottom: 20px; 
+    background-color: rgb(64, 72, 226);
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+#dont{
+    padding-top: 50px;
+    margin-left: 20px;
+    color: rgb(167, 161, 161);
+}
+#dont a{
+    text-decoration: none;
+    color: rgb(64, 72, 226);
+}
